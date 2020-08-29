@@ -25,7 +25,6 @@ class Proxy:
 
     def last_invoked_method(self):
         if self.last_invoked == '':
-            print('fuck')
             raise Exception('No Method Is Invoked')
         else:
             return self.last_invoked
